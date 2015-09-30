@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34626EA18EEF576009C1B18 /* PensRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = C34626E918EEF576009C1B18 /* PensRepo.m */; };
+		C36ED55C18F42FB100D0F3B2 /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C36ED55B18F42FB100D0F3B2 /* WebVC.m */; };
+		C36ED55F18F45C8500D0F3B2 /* SteelersRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = C36ED55E18F45C8500D0F3B2 /* SteelersRepo.m */; };
+		C36ED56218F47EEE00D0F3B2 /* PiratesRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = C36ED56118F47EEE00D0F3B2 /* PiratesRepo.m */; };
+		C36ED57018F59D7A00D0F3B2 /* pens.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C36ED56F18F59D7A00D0F3B2 /* pens.jpeg */; };
+		C36ED57318F5A19400D0F3B2 /* steeler.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C36ED57118F5A19400D0F3B2 /* steeler.jpeg */; };
+		C36ED57418F5A19400D0F3B2 /* pittsburgh pirates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36ED57218F5A19400D0F3B2 /* pittsburgh pirates.jpg */; };
+		C385119718E47AE800569C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C385119618E47AE800569C8B /* Foundation.framework */; };
+		C385119918E47AE800569C8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C385119818E47AE800569C8B /* CoreGraphics.framework */; };
+		C385119B18E47AE800569C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C385119A18E47AE800569C8B /* UIKit.framework */; };
+		C38511A118E47AE800569C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C385119F18E47AE800569C8B /* InfoPlist.strings */; };
+		C38511A318E47AE800569C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38511A218E47AE800569C8B /* main.m */; };
+		C38511A718E47AE800569C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38511A618E47AE800569C8B /* AppDelegate.m */; };
+		C38511AA18E47AE800569C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38511A818E47AE800569C8B /* Main.storyboard */; };
+		C38511AD18E47AE800569C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38511AC18E47AE800569C8B /* ViewController.m */; };
+		C38511AF18E47AE800569C8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38511AE18E47AE800569C8B /* Images.xcassets */; };
+		C38511B618E47AE800569C8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38511B518E47AE800569C8B /* XCTest.framework */; };
+		C38511B718E47AE800569C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C385119618E47AE800569C8B /* Foundation.framework */; };
+		C38511B818E47AE800569C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C385119A18E47AE800569C8B /* UIKit.framework */; };
+		C38511C018E47AE800569C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38511BE18E47AE800569C8B /* InfoPlist.strings */; };
+		C38511C218E47AE800569C8B /* Pittsburgh_SportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38511C118E47AE800569C8B /* Pittsburgh_SportsTests.m */; };
+		C3918CD518EE1947007E0534 /* PensTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3918CD418EE1947007E0534 /* PensTableVC.m */; };
+		C3918CD818EE1956007E0534 /* SteelersTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3918CD718EE1956007E0534 /* SteelersTableVC.m */; };
+		C3918CDB18EE1967007E0534 /* PiratesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3918CDA18EE1967007E0534 /* PiratesTableVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38511B918E47AE800569C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C385118B18E47AE800569C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C385119218E47AE800569C8B;
+			remoteInfo = "Pittsburgh Sports";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34626E818EEF576009C1B18 /* PensRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PensRepo.h; sourceTree = "<group>"; };
+		C34626E918EEF576009C1B18 /* PensRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PensRepo.m; sourceTree = "<group>"; };
+		C36ED55A18F42FB100D0F3B2 /* WebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebVC.h; path = ../WebVC.h; sourceTree = "<group>"; };
+		C36ED55B18F42FB100D0F3B2 /* WebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebVC.m; path = ../WebVC.m; sourceTree = "<group>"; };
+		C36ED55D18F45C8500D0F3B2 /* SteelersRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteelersRepo.h; sourceTree = "<group>"; };
+		C36ED55E18F45C8500D0F3B2 /* SteelersRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteelersRepo.m; sourceTree = "<group>"; };
+		C36ED56018F47EEE00D0F3B2 /* PiratesRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiratesRepo.h; sourceTree = "<group>"; };
+		C36ED56118F47EEE00D0F3B2 /* PiratesRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiratesRepo.m; sourceTree = "<group>"; };
+		C36ED56F18F59D7A00D0F3B2 /* pens.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pens.jpeg; sourceTree = "<group>"; };
+		C36ED57118F5A19400D0F3B2 /* steeler.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steeler.jpeg; sourceTree = "<group>"; };
+		C36ED57218F5A19400D0F3B2 /* pittsburgh pirates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pittsburgh pirates.jpg"; sourceTree = "<group>"; };
+		C385119318E47AE800569C8B /* Pittsburgh Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pittsburgh Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C385119618E47AE800569C8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C385119818E47AE800569C8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C385119A18E47AE800569C8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C385119E18E47AE800569C8B /* Pittsburgh Sports-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pittsburgh Sports-Info.plist"; sourceTree = "<group>"; };
+		C38511A018E47AE800569C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C38511A218E47AE800569C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C38511A418E47AE800569C8B /* Pittsburgh Sports-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pittsburgh Sports-Prefix.pch"; sourceTree = "<group>"; };
+		C38511A518E47AE800569C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C38511A618E47AE800569C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C38511A918E47AE800569C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38511AB18E47AE800569C8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C38511AC18E47AE800569C8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C38511AE18E47AE800569C8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C38511B418E47AE800569C8B /* Pittsburgh SportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pittsburgh SportsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38511B518E47AE800569C8B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C38511BD18E47AE800569C8B /* Pittsburgh SportsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pittsburgh SportsTests-Info.plist"; sourceTree = "<group>"; };
+		C38511BF18E47AE800569C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C38511C118E47AE800569C8B /* Pittsburgh_SportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pittsburgh_SportsTests.m; sourceTree = "<group>"; };
+		C3918CD318EE1947007E0534 /* PensTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PensTableVC.h; sourceTree = "<group>"; };
+		C3918CD418EE1947007E0534 /* PensTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PensTableVC.m; sourceTree = "<group>"; };
+		C3918CD618EE1956007E0534 /* SteelersTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteelersTableVC.h; sourceTree = "<group>"; };
+		C3918CD718EE1956007E0534 /* SteelersTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteelersTableVC.m; sourceTree = "<group>"; };
+		C3918CD918EE1967007E0534 /* PiratesTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiratesTableVC.h; sourceTree = "<group>"; };
+		C3918CDA18EE1967007E0534 /* PiratesTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiratesTableVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C385119018E47AE800569C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C385119918E47AE800569C8B /* CoreGraphics.framework in Frameworks */,
+				C385119B18E47AE800569C8B /* UIKit.framework in Frameworks */,
+				C385119718E47AE800569C8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38511B118E47AE800569C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38511B618E47AE800569C8B /* XCTest.framework in Frameworks */,
+				C38511B818E47AE800569C8B /* UIKit.framework in Frameworks */,
+				C38511B718E47AE800569C8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32E5F5218FC9F3F00C7CDF3 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				C34626E818EEF576009C1B18 /* PensRepo.h */,
+				C34626E918EEF576009C1B18 /* PensRepo.m */,
+				C36ED56018F47EEE00D0F3B2 /* PiratesRepo.h */,
+				C36ED56118F47EEE00D0F3B2 /* PiratesRepo.m */,
+				C36ED55D18F45C8500D0F3B2 /* SteelersRepo.h */,
+				C36ED55E18F45C8500D0F3B2 /* SteelersRepo.m */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		C385118A18E47AE800569C8B = {
+			isa = PBXGroup;
+			children = (
+				C385119C18E47AE800569C8B /* Pittsburgh Sports */,
+				C38511BB18E47AE800569C8B /* Pittsburgh SportsTests */,
+				C385119518E47AE800569C8B /* Frameworks */,
+				C385119418E47AE800569C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C385119418E47AE800569C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C385119318E47AE800569C8B /* Pittsburgh Sports.app */,
+				C38511B418E47AE800569C8B /* Pittsburgh SportsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C385119518E47AE800569C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C385119618E47AE800569C8B /* Foundation.framework */,
+				C385119818E47AE800569C8B /* CoreGraphics.framework */,
+				C385119A18E47AE800569C8B /* UIKit.framework */,
+				C38511B518E47AE800569C8B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C385119C18E47AE800569C8B /* Pittsburgh Sports */ = {
+			isa = PBXGroup;
+			children = (
+				C38511A518E47AE800569C8B /* AppDelegate.h */,
+				C38511A618E47AE800569C8B /* AppDelegate.m */,
+				C38511AE18E47AE800569C8B /* Images.xcassets */,
+				C38511A818E47AE800569C8B /* Main.storyboard */,
+				C36ED56F18F59D7A00D0F3B2 /* pens.jpeg */,
+				C3918CD318EE1947007E0534 /* PensTableVC.h */,
+				C3918CD418EE1947007E0534 /* PensTableVC.m */,
+				C3918CD918EE1967007E0534 /* PiratesTableVC.h */,
+				C3918CDA18EE1967007E0534 /* PiratesTableVC.m */,
+				C36ED57218F5A19400D0F3B2 /* pittsburgh pirates.jpg */,
+				C36ED57118F5A19400D0F3B2 /* steeler.jpeg */,
+				C32E5F5218FC9F3F00C7CDF3 /* Repositories */,
+				C3918CD618EE1956007E0534 /* SteelersTableVC.h */,
+				C3918CD718EE1956007E0534 /* SteelersTableVC.m */,
+				C38511AB18E47AE800569C8B /* ViewController.h */,
+				C38511AC18E47AE800569C8B /* ViewController.m */,
+				C36ED55A18F42FB100D0F3B2 /* WebVC.h */,
+				C36ED55B18F42FB100D0F3B2 /* WebVC.m */,
+				C385119D18E47AE800569C8B /* Supporting Files */,
+			);
+			path = "Pittsburgh Sports";
+			sourceTree = "<group>";
+		};
+		C385119D18E47AE800569C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C385119E18E47AE800569C8B /* Pittsburgh Sports-Info.plist */,
+				C385119F18E47AE800569C8B /* InfoPlist.strings */,
+				C38511A218E47AE800569C8B /* main.m */,
+				C38511A418E47AE800569C8B /* Pittsburgh Sports-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38511BB18E47AE800569C8B /* Pittsburgh SportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38511C118E47AE800569C8B /* Pittsburgh_SportsTests.m */,
+				C38511BC18E47AE800569C8B /* Supporting Files */,
+			);
+			path = "Pittsburgh SportsTests";
+			sourceTree = "<group>";
+		};
+		C38511BC18E47AE800569C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38511BD18E47AE800569C8B /* Pittsburgh SportsTests-Info.plist */,
+				C38511BE18E47AE800569C8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C385119218E47AE800569C8B /* Pittsburgh Sports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38511C518E47AE800569C8B /* Build configuration list for PBXNativeTarget "Pittsburgh Sports" */;
+			buildPhases = (
+				C385118F18E47AE800569C8B /* Sources */,
+				C385119018E47AE800569C8B /* Frameworks */,
+				C385119118E47AE800569C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pittsburgh Sports";
+			productName = "Pittsburgh Sports";
+			productReference = C385119318E47AE800569C8B /* Pittsburgh Sports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38511B318E47AE800569C8B /* Pittsburgh SportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38511C818E47AE800569C8B /* Build configuration list for PBXNativeTarget "Pittsburgh SportsTests" */;
+			buildPhases = (
+				C38511B018E47AE800569C8B /* Sources */,
+				C38511B118E47AE800569C8B /* Frameworks */,
+				C38511B218E47AE800569C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38511BA18E47AE800569C8B /* PBXTargetDependency */,
+			);
+			name = "Pittsburgh SportsTests";
+			productName = "Pittsburgh SportsTests";
+			productReference = C38511B418E47AE800569C8B /* Pittsburgh SportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C385118B18E47AE800569C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Brandon Everett";
+				TargetAttributes = {
+					C38511B318E47AE800569C8B = {
+						TestTargetID = C385119218E47AE800569C8B;
+					};
+				};
+			};
+			buildConfigurationList = C385118E18E47AE800569C8B /* Build configuration list for PBXProject "Pittsburgh Sports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C385118A18E47AE800569C8B;
+			productRefGroup = C385119418E47AE800569C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C385119218E47AE800569C8B /* Pittsburgh Sports */,
+				C38511B318E47AE800569C8B /* Pittsburgh SportsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C385119118E47AE800569C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38511AF18E47AE800569C8B /* Images.xcassets in Resources */,
+				C36ED57318F5A19400D0F3B2 /* steeler.jpeg in Resources */,
+				C38511A118E47AE800569C8B /* InfoPlist.strings in Resources */,
+				C36ED57418F5A19400D0F3B2 /* pittsburgh pirates.jpg in Resources */,
+				C38511AA18E47AE800569C8B /* Main.storyboard in Resources */,
+				C36ED57018F59D7A00D0F3B2 /* pens.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38511B218E47AE800569C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38511C018E47AE800569C8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C385118F18E47AE800569C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3918CDB18EE1967007E0534 /* PiratesTableVC.m in Sources */,
+				C36ED55C18F42FB100D0F3B2 /* WebVC.m in Sources */,
+				C36ED56218F47EEE00D0F3B2 /* PiratesRepo.m in Sources */,
+				C38511AD18E47AE800569C8B /* ViewController.m in Sources */,
+				C3918CD818EE1956007E0534 /* SteelersTableVC.m in Sources */,
+				C34626EA18EEF576009C1B18 /* PensRepo.m in Sources */,
+				C38511A718E47AE800569C8B /* AppDelegate.m in Sources */,
+				C36ED55F18F45C8500D0F3B2 /* SteelersRepo.m in Sources */,
+				C38511A318E47AE800569C8B /* main.m in Sources */,
+				C3918CD518EE1947007E0534 /* PensTableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38511B018E47AE800569C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38511C218E47AE800569C8B /* Pittsburgh_SportsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38511BA18E47AE800569C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C385119218E47AE800569C8B /* Pittsburgh Sports */;
+			targetProxy = C38511B918E47AE800569C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C385119F18E47AE800569C8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38511A018E47AE800569C8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C38511A818E47AE800569C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38511A918E47AE800569C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38511BE18E47AE800569C8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38511BF18E47AE800569C8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38511C318E47AE800569C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C38511C418E47AE800569C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38511C618E47AE800569C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pittsburgh Sports/Pittsburgh Sports-Prefix.pch";
+				INFOPLIST_FILE = "Pittsburgh Sports/Pittsburgh Sports-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C38511C718E47AE800569C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pittsburgh Sports/Pittsburgh Sports-Prefix.pch";
+				INFOPLIST_FILE = "Pittsburgh Sports/Pittsburgh Sports-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C38511C918E47AE800569C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pittsburgh Sports.app/Pittsburgh Sports";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pittsburgh Sports/Pittsburgh Sports-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pittsburgh SportsTests/Pittsburgh SportsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C38511CA18E47AE800569C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pittsburgh Sports.app/Pittsburgh Sports";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pittsburgh Sports/Pittsburgh Sports-Prefix.pch";
+				INFOPLIST_FILE = "Pittsburgh SportsTests/Pittsburgh SportsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C385118E18E47AE800569C8B /* Build configuration list for PBXProject "Pittsburgh Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38511C318E47AE800569C8B /* Debug */,
+				C38511C418E47AE800569C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38511C518E47AE800569C8B /* Build configuration list for PBXNativeTarget "Pittsburgh Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38511C618E47AE800569C8B /* Debug */,
+				C38511C718E47AE800569C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38511C818E47AE800569C8B /* Build configuration list for PBXNativeTarget "Pittsburgh SportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38511C918E47AE800569C8B /* Debug */,
+				C38511CA18E47AE800569C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C385118B18E47AE800569C8B /* Project object */;
+}
